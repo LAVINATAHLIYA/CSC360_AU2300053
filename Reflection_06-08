@@ -1,0 +1,23 @@
+Reflection – Computer Graphics & Digital Image Processing
+Date:06/08/2026
+
+Today's lecture introduced the fundamentals of Computer Graphics and Digital Image Processing. We discussed how computer graphics is different from image processing and how both fields are connected in modern applications. I understood that computer graphics focuses on creating images using computers, whereas digital image processing focuses on improving or analyzing existing images.
+
+We also learned about the basic geometric primitives used for drawing, such as points, lines, curves, and filled areas. These simple shapes act as the building blocks for creating complex graphics and visualizations.
+
+The class also covered the graphical frameworks available in Java. We briefly discussed AWT, Swing, and JavaFX, and how each framework is used to build graphical user interfaces. Along with this, we learned about the Event Listener Model, which allows applications to respond to user actions such as mouse clicks, keyboard input, and button events.
+
+Another interesting discussion was the difference between static and interactive graphics. Static graphics remain unchanged once displayed, while interactive graphics can update based on user input. This is achieved through repainting, where the screen is redrawn whenever the graphical content changes.
+
+We also connected graphics with mathematics by understanding how curves are related to calculus. Concepts such as integration are useful for calculating areas under curves and are widely applied in graphics, animation, and image processing.
+
+Finally, we revised how Git repositories can be accessed using SSH and HTTPS. We discussed the purpose of public and private keys, where the public key is shared for authentication and the private key remains secure on the user's system. This helps establish secure communication while working with remote repositories.
+
+Key Takeaways
+- Difference between Computer Graphics and Digital Image Processing.
+- Geometric primitives used in graphics.
+- Java graphical frameworks: AWT, Swing, and JavaFX.
+- Event Listener Model for handling user interactions.
+- Difference between static and interactive graphics.
+- Connection between curves and calculus.
+- Secure Git access using SSH and HTTPS with public/private keys.
