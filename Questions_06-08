@@ -1,12 +1,111 @@
+
+
 1. How is computer graphics different from digital image processing?
+
+Computer graphics is used to create new images, drawings, animations, and visual objects using a computer. Digital image processing works on existing images to improve, analyze, or modify them.
+
+Example: Creating a 3D model is computer graphics, while removing noise from a photograph is digital image processing.
+
 2. What are the geometric primitives used for drawing?
+
+Geometric primitives are basic shapes used to create graphics. Common primitives include:
+
+Point
+
+Line
+
+Circle
+
+Ellipse
+
+Rectangle
+
+Polygon
+
+Curves
+
+These basic shapes can be combined to create complex objects.
+
 3. Explain the graphical frameworks in Java.
-   AWT
-   Swing
-   JavaFX
+
+AWT
+
+AWT stands for Abstract Window Toolkit. It provides basic GUI components such as buttons, labels, text fields, and windows. It uses native operating system components.
+
+Swing
+
+Swing is a part of Java Foundation Classes and provides more advanced GUI components. It is built on top of AWT and includes components such as JFrame, JButton, JTable, and JPanel.
+
+JavaFX
+
+JavaFX is a modern Java framework for creating rich desktop applications and graphical user interfaces. It supports animations, multimedia, CSS styling, charts, and modern UI controls.
+
 4. What is the event listener model?
+
+The event listener model is a way of handling user actions in Java GUI applications. When an event occurs, such as a mouse click or key press, an event object is created and sent to a registered listener.
+
+For example, an ActionListener can be used to handle a button click.
+
+The main parts are:
+
+Event source - the component that generates the event.
+
+Event object - contains information about the event.
+
+Event listener - receives and handles the event.
+
 5. What is the difference between static graphics and interactive graphics?
+
+Static graphics are images that do not respond to user actions after they are displayed. Examples include posters, diagrams, and simple drawings.
+
+Interactive graphics respond to user input such as mouse clicks, keyboard input, or touch. Examples include games, interactive maps, and graphical applications.
+
 6. How are curves related to calculus?
+
+Curves are closely related to calculus because calculus is used to study their shape and behavior.
+
+Derivatives are used to find the slope or tangent of a curve.
+
+Second derivatives can describe how a curve bends.
+
+Integrals can be used to calculate areas and other quantities related to curves.
+
+Parametric equations and calculus are used to control and analyze curves in computer graphics.
+
 7. Explain SSH and HTTPS for Git repositories.
+
+SSH (Secure Shell) is a secure protocol used to connect to a Git repository using cryptographic keys. It allows users to clone, pull, and push code without entering a password each time after authentication is configured.
+
+HTTPS (HyperText Transfer Protocol Secure) is another secure way to access Git repositories over the internet. It commonly uses a username with a personal access token for authentication when pushing code.
+
+Both methods provide secure communication, but SSH is commonly preferred for regular development because key-based authentication is convenient.
+
 8. What tools are used for SSH?
+
+Common tools used for SSH include:
+
+OpenSSH
+
+ssh command
+
+ssh-keygen
+
+ssh-agent
+
+ssh-add
+
+PuTTY
+
+PuTTYgen
+
+OpenSSH is commonly available on Linux, macOS, and modern Windows systems.
+
 9. What are public keys and private keys?
+
+Public and private keys are a pair of cryptographic keys used for secure authentication.
+
+Public key: Can be shared with others or added to services such as GitHub. It is used to verify authentication.
+
+Private key: Must be kept secret on the user's computer. It is used to prove ownership of the public key.
+
+The private key should never be shared with anyone.
